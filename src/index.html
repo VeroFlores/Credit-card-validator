@@ -7,8 +7,71 @@
   </head>
   <body>
     <header></header>
+    <div class="pag1">
+      <img src="logo3.JPG" id="logo" alt="Logo Readify" height="8%" width="15%">
+      <h1 id="h1">Por solo <b>S/.29.90</b> accede a libros , revistas y periódicas ilimitadamente</h1>
+    </div>
+    <form id="grupo1" class="form-grupo1" name="grupo1">
+      <p class="groupHead">Registro</p>
+      <div id="name-grupo1">
+        <label for="userName" class="labelGroup">¿Cómo quieres que te llamemos?</label>
+        <input  type="text" class="inputGroup" id="userName" placeholder="Ingresa tu nombre de usuario">
+        <p id="error1" class="formulario__input-error"></p>
+      </div>
+      <div id="email-grupo1">      
+        <label for="email" class="labelGroup">¿Cúal es tu correo eléctronico?</label>
+        <input type="email" class="inputGroup" id="mail" placeholder="user@example.com">
+        <p id="error2" class="formulario__input-error" ></p>
+      </div>
+      <div id ="password-grupo1">
+        <label for="password" class="labelGroup">Crea tu contraseña</label>
+        <input type="text" class="inputGroup" id="password" placeholder="Puede contener letras y números">
+        <p id="error3" class="formulario__input-error"></p>
+      </div>
+      <button type="click" id="btn1" class="btn">Registrarse</button>
+    </form>
+    <form id="grupo2" class="form-grupo2" >
+      <p class="groupHead">Configura tu tarjeta de crédito o débito</p>
+        <p>Total a pagar</p>
+        <div id="payment-grupo2">
+          <p><b> 29.90 PEN/MES</b><em><u>.Cancela cuando quieras</u></em></p>
+        </div>
+          <div id="ownerCard-grupo2">
+            <label for="ownerCard" class="labelGroup">Nombre del titular de la tarjeta</label>
+            <input type="text" class="inputGroup" id="ownerCard"  placeholder="Ingresa nombre">
+            <p  id="error4" class="formulario__input-error"></p>
+          </div>
+          <div id="cardNumber-grupo2">
+            <label for="cardNumber" class="labelGroup">Número de la tarjeta</label>
+            <input type="number" id="cardNumber" class="inputGroup" placeholder="Ingresa 16 dígitos">
+            <p  class="formulario__input-error" id="validCc">Solo debe ser de 16 dígitos numéricos. </p>
+          </div>
+          <div id="expiration-grupo2">
+            <label for="venc" class="labelGroup">Fecha de vencimiento</label>
+            <input type="month" id="month" class="inputGroup" placeholder="mm">
+            <p  class="formulario__input-error" id="error6"></p>
+          </div>
+          <div id="code-grupo2">
+            <label for="code" class="labelGroup">Introduce Código de Seguridad</label>
+            <input id="code" class="inputGroup" placeholder="CVV">
+            <p id="error5" class="formulario__input-error"></p>
+          </div>
+          <button type="click" id="btn2" class="btn"  >Iniciar suscripción</button>
+    </form>
+    <div id= "grupo3">
+      <h1 class="head-grupo3">Felicidades!!.</h1>
+      <p class="p3">Tu suscripción se concluyó exitosamente.</p>
+      <p  class="p3_1">Número de Tarjeta</p> 
+      <p id="masknumber" class="p3_1"></p> 
+      <p class="p3">Ahora podrás disfrutar de nuestra biblioteca virtual ilimitadamente.</p>
+
+
+    </div>
+
+
     <main></main>
     <footer></footer>
+    
     <script src="index.js" type="module"></script>
   </body>
 </html>
