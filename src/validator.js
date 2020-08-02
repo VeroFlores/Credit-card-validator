@@ -3,7 +3,7 @@ const validator = {
 
     //Primero invertiremos los numeros ingresados 
   
-    let newArray= creditCardNumber.split('').reverse().join('');
+    const newArray= creditCardNumber.split('').reverse().join('');
     
     //Creamos un ciclo for para que recorra por toda la cadena e identifique a los indices pares y los multiplique *2, y los indices impares los deje tal cual. 
     let t='';
@@ -25,10 +25,10 @@ const validator = {
     
     //  Se crea una condicional para que la suma de los digitos sean diferente a 0 o el residuo de dividirlo/10 sea igual a 0//
     if (n != 0 && n % 10 == 0) {
-        return 'true'
+        return 'tarjeta válida'
         
     } else {
-        return 'false'
+        return 'tarjeta inválido'
         
     }
 
