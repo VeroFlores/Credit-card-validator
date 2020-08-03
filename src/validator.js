@@ -28,7 +28,7 @@ const validator = {
         return 'tarjeta válida'
         
     } else {
-        return 'tarjeta inválido'
+        return 'tarjeta inválida'
         
     }
 
